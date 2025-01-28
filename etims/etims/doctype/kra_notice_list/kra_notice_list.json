@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:notice_no",
+ "creation": "2025-01-08 17:11:13.229619",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "details_section",
+  "notice_no",
+  "content",
+  "registration_name",
+  "column_break_kaft",
+  "title",
+  "details_url",
+  "registration_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "details_section",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "notice_no",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Notice No",
+   "non_negative": 1,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_kaft",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "content",
+   "fieldtype": "Data",
+   "label": "Content",
+   "reqd": 1
+  },
+  {
+   "fieldname": "details_url",
+   "fieldtype": "Data",
+   "label": "Details Url",
+   "reqd": 1
+  },
+  {
+   "fieldname": "registration_name",
+   "fieldtype": "Data",
+   "label": "Registration Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "registration_date",
+   "fieldtype": "Date",
+   "label": "Registration Date",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-08 17:14:01.517478",
+ "modified_by": "Administrator",
+ "module": "Etims",
+ "name": "KRA Notice List",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title"
+}

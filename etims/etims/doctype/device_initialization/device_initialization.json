@@ -1,0 +1,181 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:device_serial_no",
+ "creation": "2025-01-08 15:36:57.275994",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "new",
+  "tin",
+  "device_serial_no",
+  "business_activity",
+  "branch_open_date",
+  "district_name",
+  "location_description",
+  "result_date",
+  "default",
+  "column_break_wipg",
+  "hq",
+  "branch",
+  "tax_payer_name",
+  "branch_name",
+  "province_name",
+  "scrt_name",
+  "manager_name",
+  "manager_tel_no",
+  "cmc_key",
+  "api_key",
+  "url"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "new",
+   "fieldtype": "Check",
+   "label": "New"
+  },
+  {
+   "fieldname": "tin",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "TIN",
+   "not_nullable": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_wipg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "device_serial_no",
+   "fieldtype": "Data",
+   "label": "Device Serial No",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "tax_payer_name",
+   "fieldtype": "Data",
+   "label": "Tax Payer Name"
+  },
+  {
+   "default": "0",
+   "fetch_from": "branch.headquarters",
+   "fieldname": "hq",
+   "fieldtype": "Check",
+   "label": "HQ"
+  },
+  {
+   "fieldname": "business_activity",
+   "fieldtype": "Data",
+   "label": "Business Activity"
+  },
+  {
+   "fieldname": "branch_open_date",
+   "fieldtype": "Date",
+   "label": "Branch Open Date"
+  },
+  {
+   "fetch_from": "branch.district_name",
+   "fieldname": "district_name",
+   "fieldtype": "Data",
+   "label": "District Name"
+  },
+  {
+   "fetch_from": "branch.location_description",
+   "fieldname": "location_description",
+   "fieldtype": "Small Text",
+   "label": "Location Description"
+  },
+  {
+   "fieldname": "result_date",
+   "fieldtype": "Data",
+   "label": "Result Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "default",
+   "fieldtype": "Check",
+   "label": "Default"
+  },
+  {
+   "fetch_from": "branch.branch",
+   "fieldname": "branch_name",
+   "fieldtype": "Data",
+   "label": "Branch Name"
+  },
+  {
+   "fetch_from": "branch.province_name",
+   "fieldname": "province_name",
+   "fieldtype": "Data",
+   "label": "Province Name"
+  },
+  {
+   "fetch_from": "branch.sctr_name",
+   "fieldname": "scrt_name",
+   "fieldtype": "Data",
+   "label": "SCRT Name"
+  },
+  {
+   "fetch_from": "branch.manager_name",
+   "fieldname": "manager_name",
+   "fieldtype": "Data",
+   "label": "Manager Name"
+  },
+  {
+   "fetch_from": "branch.manager_tel_no",
+   "fieldname": "manager_tel_no",
+   "fieldtype": "Data",
+   "label": "Manager Tel No"
+  },
+  {
+   "fieldname": "cmc_key",
+   "fieldtype": "Data",
+   "label": "CMC Key"
+  },
+  {
+   "fieldname": "api_key",
+   "fieldtype": "Data",
+   "label": "API Key",
+   "reqd": 1
+  },
+  {
+   "fieldname": "url",
+   "fieldtype": "Data",
+   "label": "URL",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-23 12:16:52.404885",
+ "modified_by": "Administrator",
+ "module": "Etims",
+ "name": "Device Initialization",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

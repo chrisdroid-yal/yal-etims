@@ -1,0 +1,89 @@
+{
+ "app": "erpnext",
+ "charts": [],
+ "content": "[{\"id\":\"t1zKK8siIc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Basic Data</span>\",\"col\":12}},{\"id\":\"NBhqmiIr1L\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Kra Codes\",\"col\":3}},{\"id\":\"pSjn6vo_VH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"KRA Currencies\",\"col\":3}},{\"id\":\"1gasmO17LE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"KRA Taxation Types\",\"col\":3}},{\"id\":\"W7PVpJvPDW\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"KRA Country Codes\",\"col\":3}},{\"id\":\"rvQjE28MBc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"KRA Refund Reasons\",\"col\":3}},{\"id\":\"gVJYjmOvpH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"KRA Banks\",\"col\":3}},{\"id\":\"bbaitqpf7m\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"KRA Locales\",\"col\":3}}]",
+ "creation": "2025-01-10 10:04:51.671645",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "dashboard-list",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Basic Data",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-01-10 10:08:54.402940",
+ "modified_by": "Administrator",
+ "module": "Etims",
+ "name": "Basic Data",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Kra Codes",
+   "link_to": "KRA Codes",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "KRA Currencies",
+   "link_to": "KRA Currency",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "KRA Taxation Types",
+   "link_to": "KRA Tax Codes",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "KRA Country Codes",
+   "link_to": "KRA Country Codes",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "KRA Refund Reasons",
+   "link_to": "KRA Refund Reason",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "KRA Banks",
+   "link_to": "KRA Bank",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "KRA Locales",
+   "link_to": "KRA Locale",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Basic Data",
+ "type": "Workspace"
+}

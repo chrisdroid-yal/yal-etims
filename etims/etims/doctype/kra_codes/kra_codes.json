@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:code_class_id",
+ "creation": "2025-01-08 16:33:36.868906",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "details_section",
+  "code_class_id",
+  "code_class_description",
+  "used",
+  "column_break_viod",
+  "code_class_name",
+  "user_defined_name_1",
+  "user_defined_name_2",
+  "user_defined_name_3"
+ ],
+ "fields": [
+  {
+   "fieldname": "details_section",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "column_break_viod",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "code_class_name",
+   "fieldtype": "Data",
+   "label": "Code Class Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "code_class_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Code Class ID",
+   "length": 2,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "code_class_description",
+   "fieldtype": "Small Text",
+   "label": "Code Class Description"
+  },
+  {
+   "default": "1",
+   "fieldname": "used",
+   "fieldtype": "Check",
+   "label": "Used",
+   "read_only": 1
+  },
+  {
+   "fieldname": "user_defined_name_1",
+   "fieldtype": "Data",
+   "label": "User Defined Name 1"
+  },
+  {
+   "fieldname": "user_defined_name_2",
+   "fieldtype": "Data",
+   "label": "User Defined Name 2"
+  },
+  {
+   "fieldname": "user_defined_name_3",
+   "fieldtype": "Data",
+   "label": "User Defined Name 3"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-08 16:46:12.196512",
+ "modified_by": "Administrator",
+ "module": "Etims",
+ "name": "KRA Codes",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "code_class_name"
+}

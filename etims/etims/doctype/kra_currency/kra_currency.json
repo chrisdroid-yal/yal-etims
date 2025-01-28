@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:code",
+ "creation": "2025-01-09 10:32:10.783949",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "details_section",
+  "code_class",
+  "code",
+  "description",
+  "user_defined_code_2",
+  "column_break_vxse",
+  "sort_order",
+  "name1",
+  "user_defined_code_1",
+  "user_defined_code_3",
+  "used"
+ ],
+ "fields": [
+  {
+   "fieldname": "details_section",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "code_class",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Code Class",
+   "options": "KRA Codes",
+   "reqd": 1
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "user_defined_code_2",
+   "fieldtype": "Data",
+   "label": "User Defined Code 2"
+  },
+  {
+   "fieldname": "column_break_vxse",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sort_order",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Sort Order",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "user_defined_code_1",
+   "fieldtype": "Data",
+   "label": "User Defined Code 1"
+  },
+  {
+   "fieldname": "user_defined_code_3",
+   "fieldtype": "Data",
+   "label": "User Defined Code 3"
+  },
+  {
+   "default": "1",
+   "fieldname": "used",
+   "fieldtype": "Check",
+   "label": "Used",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-09 10:37:43.010841",
+ "modified_by": "Administrator",
+ "module": "Etims",
+ "name": "KRA Currency",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "name1"
+}
